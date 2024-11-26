@@ -13,3 +13,4 @@ pretty-exec -- bash -c 'echo "// DEFENITELY EDITED" > work/node_modules/.pnpm_pa
 pretty-exec -- bat -pp 'work/node_modules/.pnpm_patches/is-number@7.0.0/index.js'
 pretty-exec -- run-at work pnpm patch-commit "$(pwd)/work/node_modules/.pnpm_patches/is-number@7.0.0/"
 pretty-exec -- bat -pp 'work/node_modules/is-number/index.js'
+pretty-exec -- bat -pp 'work/patches/is-number.patch'
