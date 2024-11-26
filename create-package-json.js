@@ -5,6 +5,7 @@ const object = {
   name: 'test',
   private: true,
   version: '0.0.0',
+  packageManager: 'pnpm@9.12.2',
 }
 
 const json = JSON.stringify(object, undefined, 2) + '\n'
